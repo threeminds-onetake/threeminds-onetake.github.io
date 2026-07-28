@@ -279,7 +279,6 @@
     .stats-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      divide-x: 1px solid var(--border);
     }
 
     .stat-item {
@@ -726,6 +725,7 @@
 
     .listen-platform-card {
       background: var(--bg-card);
+      color: var(--cream);
       padding: 3rem;
       display: flex;
       align-items: flex-start;
@@ -739,7 +739,7 @@
     .listen-icon-wrap {
       width: 56px;
       height: 56px;
-      border-radius: 12px;
+      border-radius: 2px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -950,7 +950,7 @@
             Real access. Honest conversation. All three have opinions. The only question is who gets to speak loudest.
           </p>
           <div style="margin-top: 2rem;">
-            <button class="btn btn-outline" onclick="showPage('hosts')" style="font-size:0.75rem;">Meet Lauren, Michael & Boy &rarr;</button>
+            <button class="btn btn-outline" onclick="showPage('hosts')" style="font-size:0.75rem;">Meet Lauren, Michael &amp; Boy &rarr;</button>
           </div>
         </div>
       </div>
@@ -968,7 +968,7 @@
       <div class="hosts-preview">
         <!-- Lauren -->
         <div class="host-card" onclick="showPage('hosts')">
-          <div class="drink-icon">&#127870;</div>
+          <div class="drink-icon">&#127864;</div>
           <div class="host-role">CEO Advisor &amp; Exec Team Specialist</div>
           <h3>Lauren J Kester</h3>
           <p>She's advised C-suites across industries - which means she's seen every flavour of executive behaviour from visionary to delusional and has the receipts to prove it. Warm, direct, and very hard to spin.</p>
@@ -1000,7 +1000,7 @@
       "Real leadership doesn't happen in the boardroom. It happens in the conversation you have afterwards, usually with a drink in hand."
     </blockquote>
     <div class="divider center"></div>
-    <cite>Three Minds. One Take. &mdash; The house view</cite>
+    <cite>Three Minds. One Take. &mdash; The house view
   </div>
 
   <!-- Listen CTA -->
@@ -1065,21 +1065,21 @@
     <div class="host-full">
       <div class="host-image-panel">
         <img
-          src="https://images.unsplash.com/photo-1551538827-9c037cb4f32a?w=800&q=80&fit=crop"
-          alt="A champagne bucket on ice - Lauren's drink of choice"
-          onerror="this.parentElement.innerHTML='<div class=\'host-image-placeholder\'><div class=\'drink-emoji\'>&#127870;</div><div class=\'eyebrow\' style=\'text-align:center;\'>Champagne</div></div>'"
+          src="https://images.unsplash.com/photo-1667769935480-7f19ecc53659?w=800&q=80&fit=crop"
+          alt="A gin and tonic with cucumber - Lauren's drink of choice"
+          onerror="this.parentElement.innerHTML='<div class=\'host-image-placeholder\'><div class=\'drink-emoji\'>&#127864;</div><div class=\'eyebrow\' style=\'text-align:center;\'>Gin &amp; Tonic</div></div>'"
         />
-        <div class="drink-label">Champagne - her tipple of choice</div>
+        <div class="drink-label">Gin &amp; tonic - her tipple of choice</div>
       </div>
       <div class="host-info-panel">
         <div class="host-number">01</div>
         <div class="host-role-badge">CEO Advisor &amp; Exec Team Specialist</div>
         <h2>Lauren J Kester</h2>
         <p class="bio">
-          Lauren has spent her career in the room where the real decisions happen - not the ones that make the press release, but the ones that happen afterwards, usually with the door closed. She advises CEOs and executive teams on the things that actually determine whether a leadership team flies or quietly implodes: alignment, dynamics, and the gap between what a leader thinks they project and what their team actually experiences.
+          Lauren has spent her career in the room where it happens - like a business version of Alexander Hamilton. And like the musical, usually with the door closed. She advises CEOs and executive teams on the things that determine whether a leadership team flies or quietly implodes: alignment, dynamics, and the gap between perception and reality, examined like proper forensic witness testimony. Not surprisingly, Lauren used to study serial killers before she pivoted to CEOs. Whoever guesses her favourite killer can expect a prize.
         </p>
         <p class="bio" style="margin-top: 0.75rem;">
-          She brings real access and genuine curiosity to every conversation. She is not here to validate your strategy. She is here to make it better.
+          She brings real access and genuine curiosity to every conversation. She is not here to validate your strategy or your thinking. She is here to make it better. And probably have a good laugh about it in the process.
         </p>
         <div class="host-quote">
           "The most useful thing I can do is tell you the truth - and then help you figure out what to do with it."
@@ -1101,7 +1101,7 @@
           alt="A single whisky glass - Michael's drink of choice"
           onerror="this.parentElement.innerHTML='<div class=\'host-image-placeholder\'><div class=\'drink-emoji\'>&#129347;</div><div class=\'eyebrow\' style=\'text-align:center;\'>Whisky</div></div>'"
         />
-        <div class="drink-label">Whisky - neat, always</div>
+        <div class="drink-label">Yamazaki 18 - when someone else is paying</div>
       </div>
       <div class="host-info-panel">
         <div class="host-number">02</div>
@@ -1140,10 +1140,13 @@
         <div class="host-role-badge">Strategy Partner</div>
         <h2>Boy W.J. Kester</h2>
         <p class="bio">
-          Boy is a strategy partner with a talent for seeing through complexity and saying the quiet part out loud. He works with organisations on the decisions that shape their future - the kind that require you to hold multiple uncomfortable truths simultaneously and still move forward.
+          Boy is a strategist who happens to have studied this topic both academically and in practice, spending over 20 years with some of the largest companies in the world - by headcount or by revenue. He insisted on adding those two specs.
         </p>
         <p class="bio" style="margin-top: 0.75rem;">
-          He also has the additional professional hazard of being married to his co-host, which gives him a unique perspective on executive dynamics and an extremely thick skin. Michael has noted that this makes certain conversations "ethnographically fascinating."
+          He has a talent for seeing through complexity and saying the quiet part out loud, while being allergic to bullshit. Not afraid to play the culture card (he is Dutch and thinks that gives him a free pass to be blunt), he works with organisations on the cusp of shaping their future - or helping them get there. He is one of the few people truly interested in business history. Don't get him started.
+        </p>
+        <p class="bio" style="margin-top: 0.75rem;">
+          He also has the additional professional hazard of being married to his co-host, which gives him a unique perspective on executive dynamics and an extremely thick skin. Michael has noted that this makes certain conversations "ethnographically fascinating" and frightening at the same time.
         </p>
         <div class="host-quote">
           "I have a strategy for this. Lauren will disagree. Michael will reference a study. We'll land somewhere in the middle. Usually."
@@ -1339,4 +1342,3 @@
 </script>
 </body>
 </html>
-
